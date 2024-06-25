@@ -8,7 +8,7 @@ export const Hero = () => {
         <h1 className="md:text-4xl table-caption text-2xl mb-5 font-[800]">
           VERÓNICA Y JUAN SERGIO
         </h1>
-        <h2 className="text-xl font-[800]">Comming Soon...</h2>
+        <h2 className="text-xl font-[800]">Coming Soon...</h2>
         {/* <h3 className="text-xl font-[500]">04 Mayo 2024</h3>
         <h3 className="text-xl font-[500]">Oaxaca, Oaxaca</h3> */}
       </div>
