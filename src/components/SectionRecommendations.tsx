@@ -12,10 +12,10 @@ export const SectionRecommendations = () => {
         <button className="w-[8rem] button-background-color white-font-color p-2 rounded-lg shadow-md">
           Hoteles
         </button>
-        <button className="w-[8rem] button-background-color white-font-color p-2 rounded-lg shadow-md">
+        <button className="w-[8rem] border-solid border-[1px] p-2 rounded-lg shadow-md">
           Restaurantes
         </button>
-        <button className="w-[8rem] button-background-color white-font-color p-2 rounded-lg shadow-md">
+        <button className="w-[8rem] border-solid border-[1px] p-2 rounded-lg shadow-md">
           Actividades
         </button>
       </div>
