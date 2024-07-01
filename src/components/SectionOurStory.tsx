@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const SectionOurStory = () => {
   return (
-    <section className="col-[full-start/full-end] flex justify-center py-[10rem] relative">
-      <p className="font-elegant text-6xl w-[60%] text-center">
+    <section className="col-[full-start/full-end] flex justify-center md:py-[10rem] py-[8rem] relative">
+      <p className="font-elegant md:text-6xl text-4xl lg:w-[60%] md:w-[80%] w-[90%] text-center z-20">
         Nos complace mucho invitarlos a que sean parte de este importante
         momento en nuestras vidas...
       </p>
@@ -12,7 +12,7 @@ export const SectionOurStory = () => {
         alt="object"
         width={200}
         height={200}
-        className="absolute -top-1 left-0"
+        className="absolute -top-1 left-0 z-10 md:flex hidden"
       />
     </section>
   );

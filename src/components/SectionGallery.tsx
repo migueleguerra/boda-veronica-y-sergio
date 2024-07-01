@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export const SectionGallery = () => {
   return (
-    <div className="col-[center-start/center-end] grid pt-[5rem] pb-[5rem] gap-5">
+    <section
+      id="galeria"
+      className="lg:col-[center-start/center-end] col-[full-start/full-end] grid lg:p-0 p-[1rem] lg:pt-[5rem] lg:pb-[5rem] gap-5"
+    >
       <Image
         src="https://mimascota.blob.core.windows.net/boda2/gallery8.jpg"
         alt="gallery8"
@@ -10,7 +13,7 @@ export const SectionGallery = () => {
         height={1000}
         className="w-full h-[40rem] object-cover rounded-lg shadow-md"
       />
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid lg:grid-cols-4 grid-cols-2 gap-5">
         <Image
           src="https://mimascota.blob.core.windows.net/boda2/gallery7-web.jpg"
           alt="gallery4"
@@ -46,16 +49,16 @@ export const SectionGallery = () => {
           alt="gallery5"
           width={1000}
           height={1000}
-          className="h-[30rem] rounded-lg shadow-md object-cover"
+          className="sm:h-[30rem] rounded-lg shadow-md object-cover"
         />
         <Image
           src="https://mimascota.blob.core.windows.net/boda2/gallery10-web.jpg"
           alt="gallery6"
           width={1000}
           height={1000}
-          className="h-[30rem] rounded-lg shadow-md object-cover"
+          className="sm:h-[30rem] rounded-lg shadow-md object-cover"
         />
       </div>
-    </div>
+    </section>
   );
 };

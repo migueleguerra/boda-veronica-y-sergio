@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-//import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 export const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -14,7 +14,7 @@ export const NavBar = () => {
 
   return (
     <div className="col-[full-start/full-end] z-20 py-4 relative">
-      <ul className="md:flex justify-center lg:space-x-8 md:space-x-5 text-xl hidden">
+      <ul className="lg:flex justify-center lg:space-x-5 text-xl hidden">
         <Link href="/" className="pl-10 absolute top-5 -left-5">
           <Image src="/logo.svg" alt="logo" width={80} height={80} />
         </Link>
@@ -34,7 +34,7 @@ export const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link href="#hoteles" className=" hover:text-[white] font-light">
+          <Link href="#galeria" className=" hover:text-[white] font-light">
             Galeria
           </Link>
         </li>
@@ -51,22 +51,22 @@ export const NavBar = () => {
       {/* Mobile Menu */}
       <div
         onClick={handleNav}
-        className="col-start-[center-end] flex justify-end pr-4 md:hidden z-30"
+        className="col-start-[center-end] flex justify-end pr-[3rem] pt-[1rem] lg:hidden z-30"
       >
-        {nav
-          ? // <AiOutlineClose
-            //   className="cursor-pointer primary-font-color"
-            //   size={30}
-            // />
-            ""
-          : // <AiOutlineMenu className="cursor-pointer text-white" size={30} />
-            ""}
+        {nav ? (
+          <AiOutlineClose
+            className="cursor-pointer z-40 text-[#3f3f3f]"
+            size={30}
+          />
+        ) : (
+          <AiOutlineMenu className="cursor-pointer text-[#3f3f3f]" size={30} />
+        )}
       </div>
       <div
         className={
           nav
-            ? "md:hidden inset-0 flex justify-center text-center w-full h-full bg-[#EAE3D0] fixed"
-            : "md:hidden left-[-100%] bg-[#EAE3D0] absolute"
+            ? "md:hidden inset-0 flex justify-center text-center w-full h-full primary-background-color fixed"
+            : "md:hidden left-[-100%] primary-background-color absolute"
         }
       >
         <ul className="flex flex-col space-y-10 primary-font-color text-2xl font-bold translate-y-[25%]">
