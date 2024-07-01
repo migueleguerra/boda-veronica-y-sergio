@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/7640736856dce7c75116456cccbf1c9a?family=Elegant+DEMO);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +15,7 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Italiana", serif;
+  font-family: "Inter", serif;
 }
 
 .container {
@@ -28,17 +30,49 @@ html {
 }
 
 .primary-font-color {
-  color: #576250;
+  color: #252525d1;
 }
 
 .secondary-font-color {
   color: #6a6c5f;
 }
 
-.text-white {
+.black-font-color {
+  color: #000000;
+}
+
+.white-font-color {
   color: #faf6f5;
 }
 
+.icon-background-color {
+  background-color: #3f3f3f;
+}
+
+.button-background-color {
+  background-color: #8f938b;
+}
+
+.input-background-color {
+  background-color: #f8f7f7;
+}
+
+.primary-background-color {
+  background-color: #f2f2f2;
+}
+
 .secondary-background-color {
-  background-color: #eceed599;
+  background-color: #dbd9d0;
+}
+
+.tertiary-background-color {
+  background-color: #4e58518a;
+}
+
+.white-background-color {
+  background-color: #ffffff;
+}
+
+.gray-background-color {
+  background-color: #f2f2f2;
 }

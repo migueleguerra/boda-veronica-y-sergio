@@ -22,6 +22,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+          rel="stylesheet"
+        />
         <meta name="description" content="Boda Verónica y Juan Sergio" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
