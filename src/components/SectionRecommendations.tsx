@@ -35,7 +35,7 @@ export const SectionRecommendations = () => {
       <h2 className="uppercase md:text-5xl text-3xl font-italiana">
         Recomendaciones
       </h2>
-      <p className="md:w-[40%] w-[80%] text-center">
+      <p className="md:w-[40%] w-[80%] text-center font-abyssinica">
         Dado que el evento no se llevará a cabo en ningún hotel en particular,
         tienen la libertad de elegir el que más les convenga para hospedarse
       </p>
@@ -74,50 +74,54 @@ export const SectionRecommendations = () => {
               itemName="Gran Hotel Querétaro"
               useCode={true}
               code="VEROYJUANSERGIO11"
-            />
-            <InfoItem
-              itemLink="https://maps.app.goo.gl/Ug57xEBdMSmLqA8d7"
-              itemName="Mesón de Santa Rosa"
-              useCode={false}
+              useHotelLink={true}
+              hotelLink="https://granhoteldequeretaro.com.mx/"
             />
             <InfoItem
               itemLink="https://maps.app.goo.gl/hukjWUbTTVvRnPpz5"
               itemName="Hilton Querétaro"
               useCode={true}
               code="BODA VERO & JUAN SERGIO"
+              useHotelLink={true}
+              hotelLink="https://www.hilton.com/es/book/reservation/rooms/?ctyhocn=QROJSHH&arrivalDate=2024-10-17&departureDate=2024-10-20&groupCode=BVJS&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink"
+            />
+            <InfoItem
+              itemLink="https://maps.app.goo.gl/Ug57xEBdMSmLqA8d7"
+              itemName="Mesón de Santa Rosa"
+              useHotelLink={true}
+              hotelLink="https://elmesondesantarosa.com/habitaciones/"
             />
             <InfoItem
               itemLink="https://maps.app.goo.gl/F5VZfrSvgo8LmVYT7"
               itemName="Gran Fiesta Americana"
-              useCode={false}
+              useHotelLink={true}
+              hotelLink="https://www.grandfiestamericana.com/hoteles-y-resorts/grand-fiesta-americana-queretaro"
             />
           </div>
           <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-10 md:gap-5 gap-1 z-10 lg:p-0 p-5">
             <ImgItem
-              itemLink="https://maps.app.goo.gl/Jo3yG5ryAvSDcqzLA"
+              itemLink="https://granhoteldequeretaro.com.mx/"
               imgSrc="https://mimascota.blob.core.windows.net/boda2/hotel-gran.avif"
               itemName="Gran Hotel Querétaro"
               useCode={true}
               code="VEROYJUANSERGIO11"
             />
             <ImgItem
-              itemLink="https://maps.app.goo.gl/Ug57xEBdMSmLqA8d7"
-              imgSrc="https://mimascota.blob.core.windows.net/boda2/hotel-meson.avif"
-              itemName="Mesón de Santa Rosa"
-              useCode={false}
-            />
-            <ImgItem
-              itemLink="https://maps.app.goo.gl/hukjWUbTTVvRnPpz5"
+              itemLink="https://www.hilton.com/es/book/reservation/rooms/?ctyhocn=QROJSHH&arrivalDate=2024-10-17&departureDate=2024-10-20&groupCode=BVJS&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink"
               imgSrc="https://mimascota.blob.core.windows.net/boda2/hotel-hilton.avif"
               itemName="Hilton Querétaro"
               useCode={true}
               code="BODA VERO & JUAN SERGIO"
             />
             <ImgItem
-              itemLink="https://maps.app.goo.gl/F5VZfrSvgo8LmVYT7"
+              itemLink="https://elmesondesantarosa.com/habitaciones/"
+              imgSrc="https://mimascota.blob.core.windows.net/boda2/hotel-meson.avif"
+              itemName="Mesón de Santa Rosa"
+            />
+            <ImgItem
+              itemLink="https://www.grandfiestamericana.com/hoteles-y-resorts/grand-fiesta-americana-queretaro"
               imgSrc="https://mimascota.blob.core.windows.net/boda2/hotel-fiesta.jpeg"
               itemName="Gran Fiesta Americana"
-              useCode={false}
             />
           </div>
         </div>
@@ -130,22 +134,18 @@ export const SectionRecommendations = () => {
               <InfoItem
                 itemLink="https://maps.app.goo.gl/een1CeGEmhK5NRa96"
                 itemName="Becca Café"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/Su6f3LnpfAMejgWp8"
                 itemName="Café Breton"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/5o87GakkUtr1MwxT6"
                 itemName="Hacienda Laborcilla"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/H5QGrTtvJhprsNHf6"
                 itemName="Carola"
-                useCode={false}
               />
             </div>
             <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-10 md:gap-5 gap-1 z-10 lg:p-0 pl-5 pr-5">
@@ -153,25 +153,21 @@ export const SectionRecommendations = () => {
                 itemLink="https://maps.app.goo.gl/een1CeGEmhK5NRa96"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/rest-becca.jpeg"
                 itemName="Becca Café"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/Su6f3LnpfAMejgWp8"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/rest-breton.jpeg"
                 itemName="Café Breton"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/5o87GakkUtr1MwxT6"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/rest-hacienda.webp"
                 itemName="Hacienda Laborcilla"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/H5QGrTtvJhprsNHf6"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/rest-carola.jpeg"
                 itemName="Carola"
-                useCode={false}
               />
             </div>
           </div>
@@ -181,22 +177,18 @@ export const SectionRecommendations = () => {
               <InfoItem
                 itemLink="https://maps.app.goo.gl/ncCNNuE6V23bzHLD8"
                 itemName="Cabo Sierra"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/GDLdMfRefKovd99M8"
                 itemName="L'Osteria De Il Duomo"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/BsBW3kXh3T1asX4e7"
                 itemName="Cumpanio y Panio"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/qa5jnVo7fWmdmKwp9"
                 itemName="Olinka"
-                useCode={false}
               />
             </div>
             <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-10 md:gap-5 gap-1 z-10 lg:p-0 pl-5 pr-5">
@@ -204,25 +196,21 @@ export const SectionRecommendations = () => {
                 itemLink="https://maps.app.goo.gl/ncCNNuE6V23bzHLD8"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/rest-cabo.jpeg"
                 itemName="Cabo Sierra"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/GDLdMfRefKovd99M8"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/rest-osteria.jpeg"
                 itemName="L'Osteria De Il Duomo"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/BsBW3kXh3T1asX4e7"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/rest-cumpanio.jpeg"
                 itemName="Cumpanio y Panio"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/qa5jnVo7fWmdmKwp9"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/rest-olinka.jpeg"
                 itemName="Olinka"
-                useCode={false}
               />
             </div>
           </div>
@@ -236,22 +224,18 @@ export const SectionRecommendations = () => {
               <InfoItem
                 itemLink="https://maps.app.goo.gl/tG8G6ALCpxVeSQeHA"
                 itemName="Vinaltura"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/Su6f3LnpfAMejgWp8"
                 itemName="Viñedos La Redonda"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/iqeYkT2H2NzB756j9"
                 itemName="Viñedos Puertas de la Peña"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/Q4MJEsxMcD6ARidz8"
                 itemName="Noche de Leyenda"
-                useCode={false}
               />
             </div>
             <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-10 md:gap-5 gap-1 z-10 lg:p-0 pl-5 pr-5">
@@ -259,25 +243,21 @@ export const SectionRecommendations = () => {
                 itemLink="https://maps.app.goo.gl/tG8G6ALCpxVeSQeHA"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/act-vinaltura.webp"
                 itemName="Vinaltura"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/Su6f3LnpfAMejgWp8"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/act-redonda.jpeg"
                 itemName="Viñedos La Redonda"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/iqeYkT2H2NzB756j9"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/act-pena.jpeg"
                 itemName="Viñedos Puertas de la Peña"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/Q4MJEsxMcD6ARidz8"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/act-leyendas.jpeg"
                 itemName="Noche de Leyenda"
-                useCode={false}
               />
             </div>
           </div>
@@ -287,22 +267,18 @@ export const SectionRecommendations = () => {
               <InfoItem
                 itemLink="https://maps.app.goo.gl/Awqe1cHCEqoKjLi37"
                 itemName="Freixenet"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/ijFxKNCTGBKkge8c6"
                 itemName="Viñedo De Cote"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/YDNEcZFH5HTHAhWu9"
                 itemName="QuereBús"
-                useCode={false}
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/i74gXQAimJBPuNXM7"
                 itemName="Antea"
-                useCode={false}
               />
             </div>
             <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-10 md:gap-5 gap-1 z-10 lg:p-0 pl-5 pr-5">
@@ -310,25 +286,21 @@ export const SectionRecommendations = () => {
                 itemLink="https://maps.app.goo.gl/Awqe1cHCEqoKjLi37"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/act-freixenet.jpeg"
                 itemName="Freixenet"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/ijFxKNCTGBKkge8c6"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/act-cote.jpeg"
                 itemName="Viñedo De Cote"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/YDNEcZFH5HTHAhWu9"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/act-bus.webp"
                 itemName="QuereBús"
-                useCode={false}
               />
               <ImgItem
                 itemLink="https://maps.app.goo.gl/i74gXQAimJBPuNXM7"
                 imgSrc="https://mimascota.blob.core.windows.net/boda2/act-antea.jpeg"
                 itemName="Antea"
-                useCode={false}
               />
             </div>
           </div>

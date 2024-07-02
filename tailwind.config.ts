@@ -16,6 +16,7 @@ const config: Config = {
       fontFamily: {
         italiana: ["Italiana", "sans-serif"],
         elegant: ["Elegant DEMO", "sans-serif"],
+        abyssinica: ["Abyssinica SIL"],
       },
     },
   },

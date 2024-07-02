@@ -9,7 +9,7 @@ export const SectionGift = () => {
       <h2 className="uppercase md:text-5xl text-3xl font-italiana">
         Mesa de Regalos
       </h2>
-      <p className="md:w-[50%] w-[80%] md:text-center">
+      <p className="md:w-[50%] w-[80%] md:text-center font-abyssinica">
         ¡Su presencia en nuestra boda es el mejor regalo! Si desean hacernos
         otro obsequio ponemos a su disposición las siguientes opciones.
       </p>

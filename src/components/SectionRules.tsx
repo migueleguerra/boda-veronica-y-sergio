@@ -5,7 +5,7 @@ export const SectionRules = () => {
     <section className="col-[full-start/full-end] grid lg:grid-cols-2">
       <Image
         className="object-cover h-[40rem] shadow-xl lg:flex hidden"
-        src="https://mimascota.blob.core.windows.net/boda2/gallery9-web.jpg"
+        src="https://mimascota.blob.core.windows.net/boda2/rules.jpg"
         alt="Karen&Edi"
         width={1000}
         height={1000}
@@ -16,7 +16,7 @@ export const SectionRules = () => {
         </h2>
         <p className="uppercase sm:text-xl text-lg">Adultos</p>
         <div className="h-5 w-[1px] bg-black" />
-        <p className="w-[80%]">
+        <p className="w-[80%] font-abyssinica">
           Esperamos que comprendan nuestra decisión de celebrar nuestra boda sin
           niños. ¡Aprovechen la oportunidad para divertirse y celebrar en grande
           con nosotros!

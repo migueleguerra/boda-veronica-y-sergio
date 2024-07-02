@@ -60,7 +60,7 @@ export const SectionItinerary = () => {
             </div>
           </div>
         </div>
-        <p className="w-[80%] lg:pb-0 pb-[5rem]">
+        <p className="w-[80%] lg:pb-0 pb-[5rem] font-abyssinica">
           Se dispondrá de un servicio de transporte de partida desde el templo
           San Francisco de Asís con destino a la Hacienda Casa el Molino al
           concluir la ceremonia religiosa. Asimismo, tendremos transporte de
@@ -71,7 +71,7 @@ export const SectionItinerary = () => {
       </div>
       <Image
         className="sm:h-[50rem] h-[40rem] object-cover"
-        src="https://mimascota.blob.core.windows.net/boda2/gallery10-web.jpg"
+        src="https://mimascota.blob.core.windows.net/boda2/itinerario.jpg"
         alt="gallery10"
         width={1000}
         height={1000}

@@ -14,7 +14,7 @@ export const NavBar = () => {
 
   return (
     <div className="col-[full-start/full-end] z-20 py-4 relative">
-      <ul className="lg:flex justify-center lg:space-x-5 text-xl hidden">
+      <ul className="lg:flex justify-center lg:space-x-5 text-xl hidden font-abyssinica text-[#252525B2]">
         <Link href="/" className="pl-10 absolute top-5 -left-5">
           <Image src="/logo.svg" alt="logo" width={80} height={80} />
         </Link>

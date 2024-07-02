@@ -5,13 +5,13 @@ export const ImgItem = ({
   itemLink,
   imgSrc,
   itemName,
-  useCode,
+  useCode = false,
   code,
 }: {
   itemLink: string;
   imgSrc: string;
   itemName: string;
-  useCode: boolean;
+  useCode?: boolean;
   code?: string;
 }) => {
   return (
