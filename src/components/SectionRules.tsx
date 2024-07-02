@@ -16,7 +16,7 @@ export const SectionRules = () => {
         </h2>
         <p className="uppercase sm:text-xl text-lg">Adultos</p>
         <div className="h-5 w-[1px] bg-black" />
-        <p className="w-[80%] font-abyssinica">
+        <p className="w-[90%] font-abyssinica">
           Esperamos que comprendan nuestra decisión de celebrar nuestra boda sin
           niños. ¡Aprovechen la oportunidad para divertirse y celebrar en grande
           con nosotros!

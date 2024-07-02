@@ -12,7 +12,7 @@ export const SectionItinerary = () => {
           Itinerario
         </h2>
         <div className="flex justify-center sm:space-x-5 space-x-2 w-full">
-          <div className="flex flex-col justify-between items-end py-5 xl:text-4xl text-3xl">
+          <div className="flex flex-col justify-between items-end py-5 xl:text-4xl text-xl">
             <p className="font-elegant">Rompehielos</p>
             <p className="font-elegant">Ceremonia Religiosa</p>
             <p className="font-elegant">Coctel de Recepción</p>

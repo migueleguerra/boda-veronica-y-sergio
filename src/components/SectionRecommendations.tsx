@@ -39,12 +39,12 @@ export const SectionRecommendations = () => {
         Dado que el evento no se llevará a cabo en ningún hotel en particular,
         tienen la libertad de elegir el que más les convenga para hospedarse
       </p>
-      <div className="flex md:space-x-5 space-x-1 lg:pb-[8rem]">
+      <div className="flex md:space-x-5 lg:pb-[8rem]">
         <button
           onClick={handleHotelButton}
           className={`${
             hotels && "button-background-color white-font-color"
-          } w-[8rem] p-2 rounded-lg shadow-md md:text-md text-sm`}
+          } w-[8rem] p-2 md:rounded-lg rounded-l-lg  shadow-md md:text-md text-sm`}
         >
           Hoteles
         </button>
@@ -52,7 +52,7 @@ export const SectionRecommendations = () => {
           onClick={handleRestaurantsButton}
           className={`${
             restaurants && "button-background-color white-font-color"
-          } w-[8rem] p-2 rounded-lg shadow-md md:text-md text-sm`}
+          } w-[8rem] p-2 md:rounded-lg rounded-none shadow-md md:text-md text-sm`}
         >
           Restaurantes
         </button>
@@ -60,7 +60,7 @@ export const SectionRecommendations = () => {
           onClick={handleActivitiesButton}
           className={`${
             activities && "button-background-color white-font-color"
-          } w-[8rem] p-2 rounded-lg shadow-md md:text-md text-sm`}
+          } w-[8rem] p-2 md:rounded-lg rounded-r-lg shadow-md md:text-md text-sm`}
         >
           Actividades
         </button>
