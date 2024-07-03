@@ -45,7 +45,7 @@ export const SectionGift = () => {
             height={1000}
           />
           <div>
-            <p>Juan Sergio Gonzalez</p>
+            <p>Juan Sergio Ramírez</p>
             <p>Banco: Banregio</p>
           </div>
           <p>Clabe: 0585 8000 0149 6276 41</p>
