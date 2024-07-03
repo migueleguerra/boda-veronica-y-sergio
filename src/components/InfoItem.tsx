@@ -31,7 +31,11 @@ export const InfoItem = ({
         </div>
       )}
       <div>
-        <Link href={itemLink} target="_blank" className="text-[#252525B2]">
+        <Link
+          href={itemLink}
+          target="_blank"
+          className="text-[#252525B2] underline"
+        >
           ver mapa
         </Link>
       </div>

@@ -29,7 +29,7 @@ export const SectionGift = () => {
             <p>51446803</p>
           </div>
           <Link
-            href="https://maps.app.goo.gl/rWqDXZvD6ATtrEoS6"
+            href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51446803"
             target="_blank"
             className="underline primary-font-color"
           >

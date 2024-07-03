@@ -38,7 +38,7 @@ export const ImgItem = ({
             height={1000}
           />
           {useCode && (
-            <div className="font-semibold text-white text-sm absolute z-20 top-1 left-2">
+            <div className="font-semibold text-white text-sm absolute z-20 top-2">
               <p>code: </p>
               <p>{code}</p>
             </div>

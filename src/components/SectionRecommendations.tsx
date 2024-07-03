@@ -220,7 +220,7 @@ export const SectionRecommendations = () => {
       {activities && (
         <div className="flex flex-col items-center xl:w-[70%] lg:w-[90%] w-full relative">
           <div className="flex flex-col items-center">
-            <div className="lg:grid hidden grid-cols-4 p-5 gap-10 shadow-md rounded-2xl white-background-color absolute -top-[5rem] z-20">
+            <div className="lg:grid hidden grid-cols-4 p-5 gap-10 shadow-md rounded-2xl white-background-color absolute -top-[5rem] z-20 w-[88%]">
               <InfoItem
                 itemLink="https://maps.app.goo.gl/tG8G6ALCpxVeSQeHA"
                 itemName="Vinaltura"
@@ -231,7 +231,7 @@ export const SectionRecommendations = () => {
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/iqeYkT2H2NzB756j9"
-                itemName="Viñedos Puertas de la Peña"
+                itemName="Viñedos de la Peña"
               />
               <InfoItem
                 itemLink="https://maps.app.goo.gl/Q4MJEsxMcD6ARidz8"
@@ -263,7 +263,7 @@ export const SectionRecommendations = () => {
           </div>
 
           <div className="flex flex-col items-center lg:pt-[6rem] pt-0">
-            <div className="lg:grid hidden grid-cols-4 p-5 gap-10 shadow-md rounded-2xl white-background-color absolute bottom-[15rem] z-20">
+            <div className="lg:grid hidden grid-cols-4 p-5 gap-10 shadow-md rounded-2xl white-background-color absolute bottom-[15rem] z-20 w-[90%]">
               <InfoItem
                 itemLink="https://maps.app.goo.gl/Awqe1cHCEqoKjLi37"
                 itemName="Freixenet"
