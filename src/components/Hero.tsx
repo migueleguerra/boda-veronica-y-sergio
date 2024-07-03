@@ -4,7 +4,7 @@ import hero from "../../public/hero2.jpg";
 export const Hero = () => {
   return (
     <header className="col-[full-start/full-end] flex justify-center items-center h-screen">
-      <div className="flex flex-col items-center sm:space-y-3 space-y-1 absolute md:translate-y-[12rem] translate-y-[5rem] z-10">
+      <div className="flex flex-col items-center sm:space-y-3 md:bottom-[20%] bottom-[30%] space-y-1 absolute z-10">
         <h1 className="lg:text-7xl md:text-5xl text-3xl table-caption mb-5 primary-font-color font-italiana">
           VERÓNICA Y JUAN SERGIO
         </h1>
