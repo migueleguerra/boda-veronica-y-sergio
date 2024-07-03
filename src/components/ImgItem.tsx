@@ -37,15 +37,15 @@ export const ImgItem = ({
             width={1000}
             height={1000}
           />
-          <p className="z-20 absolute font-semibold text-white text-sm max-w-[90%] -translate-y-[4rem] translate-x-2">
-            {itemName}
-          </p>
           {useCode && (
-            <div className="font-semibold text-white text-sm absolute z-20 bottom-1 left-2">
+            <div className="font-semibold text-white text-sm absolute z-20 top-1 left-2">
               <p>code: </p>
               <p>{code}</p>
             </div>
           )}
+          <p className="z-20 absolute font-semibold text-white text-sm max-w-[90%] -translate-y-[3rem] translate-x-2">
+            {itemName}
+          </p>
         </div>
       </Link>
     </>

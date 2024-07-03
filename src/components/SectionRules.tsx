@@ -15,7 +15,7 @@ export const SectionRules = () => {
           exclusivo
         </h2>
         <p className="uppercase sm:text-xl text-lg">Adultos</p>
-        <div className="h-5 w-[1px] bg-black" />
+        <div className="h-5 w-[1px] bg-[#252525B2]" />
         <p className="w-[90%] font-abyssinica">
           Esperamos que comprendan nuestra decisión de celebrar nuestra boda sin
           niños. ¡Aprovechen la oportunidad para divertirse y celebrar en grande
@@ -27,6 +27,13 @@ export const SectionRules = () => {
         <p className="uppercase sm:text-xl text-lg">Formal</p>
         <Image src="/object1.svg" alt="object1" width={80} height={80} />
       </div>
+      <Image
+        className="object-cover h-[20rem] shadow-xl lg:hidden flex"
+        src="https://mimascota.blob.core.windows.net/boda2/rules.jpg"
+        alt="Karen&Edi"
+        width={1000}
+        height={1000}
+      />
     </section>
   );
 };

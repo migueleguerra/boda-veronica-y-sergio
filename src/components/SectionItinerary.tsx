@@ -11,7 +11,7 @@ export const SectionItinerary = () => {
         <h2 className="uppercase md:text-5xl text-3xl font-italiana">
           Itinerario
         </h2>
-        <div className="flex justify-center sm:space-x-5 space-x-2 w-full">
+        <div className="justify-center sm:space-x-5 space-x-2 w-full md:flex hidden">
           <div className="flex flex-col justify-between items-end py-5 xl:text-4xl text-xl">
             <p className="font-elegant">Rompehielos</p>
             <p className="font-elegant">Ceremonia Religiosa</p>
@@ -25,7 +25,7 @@ export const SectionItinerary = () => {
               </p>
               <p className="text-sm">Viernes 18 de Octubre 6:30 PM</p>
               <Link
-                href="https://maps.app.goo.gl/htCNqXKd5MD2NpbV9"
+                href="https://maps.app.goo.gl/8Fd9nvfbCsgkhTcJ9"
                 target="_blank"
                 className="p-2 button-background-color text-white rounded-lg shadow-md w-[6rem] sm:text-md text-sm text-center"
               >
@@ -56,6 +56,58 @@ export const SectionItinerary = () => {
                 className="p-2 button-background-color text-white rounded-lg shadow-md w-[6rem] sm:text-md text-sm text-center"
               >
                 Ver mapa
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col space-y-10 pb-[3rem] md:hidden">
+          <div className="flex flex-col">
+            <p className="font-elegant text-3xl">Rompehielos</p>
+            <div className="flex flex-col space-y-2">
+              <p className="uppercase xl:text-xl sm:text-md text-sm">
+                Callejoneada - Plaza de armas
+              </p>
+              <p className="text-sm">Viernes 18 de Octubre 6:30 PM</p>
+              <Link
+                href="https://maps.app.goo.gl/8Fd9nvfbCsgkhTcJ9"
+                target="_blank"
+                className="sm:p-2 p-1 button-background-color text-white rounded-lg shadow-md w-[6rem] sm:text-md text-sm text-center"
+              >
+                ver mapa
+              </Link>
+            </div>
+          </div>
+          <div className="h-5 w-[1px] bg-[#252525B2] ml-[50%]" />
+          <div className="flex flex-col">
+            <p className="font-elegant text-3xl">Ceremonia Religiosa</p>
+            <div className="flex flex-col space-y-2">
+              <p className="uppercase xl:text-xl sm:text-md text-sm">
+                TEMPLO DE SAN FRANCISCO DE ASIS
+              </p>
+              <p className="text-sm">Sábado 19 de Octubre 4:00 PM</p>
+              <Link
+                href="https://maps.app.goo.gl/htCNqXKd5MD2NpbV9"
+                target="_blank"
+                className="sm:p-2 p-1 button-background-color text-white rounded-lg shadow-md w-[6rem] sm:text-md text-sm text-center"
+              >
+                ver mapa
+              </Link>
+            </div>
+          </div>
+          <div className="h-5 w-[1px] bg-[#252525B2] ml-[50%]" />
+          <div className="flex flex-col">
+            <p className="font-elegant text-3xl">Coctel de Recepción</p>
+            <div className="flex flex-col space-y-2">
+              <p className="uppercase xl:text-xl sm:text-md text-sm">
+                HACIENDA CASA EL MOLINO
+              </p>
+              <p className="text-sm">Sábado 19 de Octubre 6:00 PM</p>
+              <Link
+                href="https://maps.app.goo.gl/rWqDXZvD6ATtrEoS6"
+                target="_blank"
+                className="sm:p-2 p-1 button-background-color text-white rounded-lg shadow-md w-[6rem] sm:text-md text-sm text-center"
+              >
+                ver mapa
               </Link>
             </div>
           </div>

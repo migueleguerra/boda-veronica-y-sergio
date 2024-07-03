@@ -44,7 +44,7 @@ export const SectionRecommendations = () => {
           onClick={handleHotelButton}
           className={`${
             hotels && "button-background-color white-font-color"
-          } w-[8rem] p-2 md:rounded-lg rounded-l-lg  shadow-md md:text-md text-sm`}
+          } md:w-[8rem] p-2 md:rounded-lg rounded-l-lg  shadow-md md:text-md text-sm`}
         >
           Hoteles
         </button>
@@ -52,7 +52,7 @@ export const SectionRecommendations = () => {
           onClick={handleRestaurantsButton}
           className={`${
             restaurants && "button-background-color white-font-color"
-          } w-[8rem] p-2 md:rounded-lg rounded-none shadow-md md:text-md text-sm`}
+          } md:w-[8rem] p-2 md:rounded-lg rounded-none shadow-md md:text-md text-sm`}
         >
           Restaurantes
         </button>
@@ -60,7 +60,7 @@ export const SectionRecommendations = () => {
           onClick={handleActivitiesButton}
           className={`${
             activities && "button-background-color white-font-color"
-          } w-[8rem] p-2 md:rounded-lg rounded-r-lg shadow-md md:text-md text-sm`}
+          } md:w-[8rem] p-2 md:rounded-lg rounded-r-lg shadow-md md:text-md text-sm`}
         >
           Actividades
         </button>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const SectionGift = () => {
   return (
@@ -13,7 +14,7 @@ export const SectionGift = () => {
         ¡Su presencia en nuestra boda es el mejor regalo! Si desean hacernos
         otro obsequio ponemos a su disposición las siguientes opciones.
       </p>
-      <div className="flex md:flex-row flex-col justify-center md:space-x-5 md:space-y-0 space-y-10 md:w-full w-[80%]">
+      <div className="flex md:flex-row flex-col justify-center md:space-x-5 md:space-y-0 space-y-10 md:w-full w-[60%]">
         <div className="flex flex-col space-y-5 tertiary-background-color p-5 rounded-lg text-white md:w-[25%]">
           <Image
             src="https://images.unsplash.com/photo-1494319827402-c4b839aed26b?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -27,7 +28,13 @@ export const SectionGift = () => {
             <p>Numero de evento:</p>
             <p>51446803</p>
           </div>
-          <p>19 Oct 2024</p>
+          <Link
+            href="https://maps.app.goo.gl/rWqDXZvD6ATtrEoS6"
+            target="_blank"
+            className="underline primary-font-color"
+          >
+            ver mesa
+          </Link>
         </div>
         <div className="flex flex-col space-y-5  justify-between tertiary-background-color p-5 rounded-lg text-white md:w-[25%]">
           <Image

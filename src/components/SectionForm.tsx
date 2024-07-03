@@ -46,7 +46,7 @@ export const SectionForm = () => {
       className="col-[full-start/full-end] flex justify-center pt-[5rem] pb-[5rem] white-background-color relative overflow-hidden"
     >
       {!confirmed ? (
-        <form className="flex flex-col space-y-5 white-background-color p-[5rem] md:rounded-lg md:shadow-md xl:w-[40%] md:w-[60%] w-full">
+        <form className="flex flex-col space-y-5 white-background-color md:p-[5rem] p-[3rem] md:rounded-lg md:shadow-md xl:w-[40%] md:w-[60%] w-full">
           <p className="text-center md:text-6xl text-4xl font-elegant pb-5">
             Confirma Tu Asistencia!
           </p>
