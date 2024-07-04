@@ -140,7 +140,7 @@ export const SectionForm = () => {
         alt="object"
         width={250}
         height={250}
-        className="absolute right-0 md:-bottom-10 -bottom-[12rem]"
+        className="absolute right-0 md:-bottom-10 -bottom-[12rem] md:flex hidden"
       />
     </section>
   );
