@@ -23,6 +23,10 @@ export const SectionItinerary = () => {
               <p className="uppercase xl:text-xl sm:text-md text-sm">
                 Callejoneada - Plaza de armas
               </p>
+              <p className="text-sm">
+                <span className="font-bold">Vestimenta:</span> blanco / beige
+                casual
+              </p>
               <p className="text-sm">Viernes 18 de Octubre 6:30 PM</p>
               <Link
                 href="https://maps.app.goo.gl/8Fd9nvfbCsgkhTcJ9"
@@ -66,6 +70,10 @@ export const SectionItinerary = () => {
             <div className="flex flex-col space-y-2">
               <p className="uppercase xl:text-xl sm:text-md text-sm">
                 Callejoneada - Plaza de armas
+              </p>
+              <p className="text-sm">
+                <span className="font-bold">Vestimenta:</span> blanco / beige
+                casual
               </p>
               <p className="text-sm">Viernes 18 de Octubre 6:30 PM</p>
               <Link
