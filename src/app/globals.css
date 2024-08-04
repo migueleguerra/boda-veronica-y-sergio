@@ -1,5 +1,4 @@
-@import url(https://db.onlinewebfonts.com/c/7640736856dce7c75116456cccbf1c9a?family=Elegant+DEMO);
-@import url(https://db.onlinewebfonts.com/c/6882c26be6fd461234a8cbb65070f51a?family=Abyssinica+SIL);
+@import url(../../public/font/sylesheet.css);
 
 @tailwind base;
 @tailwind components;
